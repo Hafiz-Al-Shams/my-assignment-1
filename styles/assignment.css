@@ -1,4 +1,4 @@
-.header{
+.header {
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
 }
@@ -34,10 +34,55 @@ img {
 
 button {
     border: 0;
+    border-radius: 4px;
     color: white;
     background: orangered;
     width: 100px;
     height: 40px;
     left: 800px;
     top: 78px;
+}
+
+/* main block starts */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.first-block {
+    display: flex;
+    margin-top: 85px;
+    margin-left: 100px;
+}
+
+/* my-failures section styles */
+.my-failures {
+    text-align: left;
+    margin-left: 87px;
+}
+
+.section-title {
+    color: #151414;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.section-description {
+    color: #444343;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.ul {
+    color: #444343;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
